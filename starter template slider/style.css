@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(questionBcg.jpeg) center/cover no-repeat fixed;
+  height: 100vh;
+  width: 100%;
+}
+.main {
+  background: transparent !important;
+  height: 100vh;
+  width: 100%;
+}
+.client-write {
+  color: rgba(236, 56, 21, 0.999);
+  padding-top: 4rem;
+  text-align: center;
+  font-size: 30px;
+}
+.testemonial-write {
+  color: white;
+  font-size: 35px;
+  margin-top: -5px;
+  /* padding-top: -4px; */
+  text-align: center;
+}
+.next {
+  display: flex;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  justify-content: space-between;
+}
+
+.sing {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 10%;
+  margin: auto;
+  border: 2px solid orangered;
+  font-size: 40px;
+  border-radius: 50%;
+  width: 2rem;
+  color: orangered;
+  cursor: pointer;
+}
+.main-box {
+  text-align: center;
+  border: 2px solid white;
+  width: 80%;
+  color: white;
+}
+.img {
+  height: 90px;
+  width: 120px;
+  margin: 0 auto;
+  margin-top: -2.5rem;
+  /* border-radius: 50%; */
+}
+.img img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+.star {
+  height: 2.5rem;
+  margin: -1rem 0px;
+}
+.box-para {
+  padding: 2px 60px;
+  font-size: 20px;
+}

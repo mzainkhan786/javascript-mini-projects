@@ -1,0 +1,58 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&display=swap'); */
+
+body {
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  height: 100vh;
+  width: 100%;
+  /* background-color: black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: powderblue;
+}
+
+.main {
+  background: rgb(241, 236, 236);
+  height: 23rem;
+  width: 60%;
+  border-radius: 10px;
+  text-align: center;
+}
+.line {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.inputGet {
+  width: 90%;
+  /* margin: 10px auto; */
+  padding: 10px;
+  font-size: 20px;
+}
+.submitbtn {
+  font-size: 25px;
+  padding: 12px;
+  margin-top: 1rem;
+  color: #fff;
+  background: powderblue;
+  border: none;
+  border-radius: 8px;
+}
+.emptyDef {
+  font-size: 25px;
+  font-weight: 400;
+  background-color: rgb(249, 79, 79);
+  width: 90%;
+  margin: 10px auto;
+}
+.hidden {
+  display: none;
+}
+
+.message {
+  font-size: 25px;
+  font-weight: 200;
+  color: rgb(162, 227, 236);
+}
